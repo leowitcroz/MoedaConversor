@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grape+Nuts&family=Laila&family=League+Gothic&display=swap');
+
+
+.fundo-img{
+
+    width: 100%;
+    height: 100rem;
+    position: relative;    
+}
+
+
+.titulo{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    font-size: 6.5rem;
+    text-align: center;
+    margin-left: 29.5%;
+    font-family: 'League Gothic', sans-serif;
+    background-color: rgba(230, 157, 68, 0.6);
+    padding: 1.5%;
+    border-radius: 1rem;
+    width: 40%;
+    text-align: center;
+    padding-left: 9%;
+}
+
+.convertores{
+
+    position: absolute;
+    top:40%;
+    margin-left: 10%;
+    font-size: 3.5rem;;
+    font-family: 'League Gothic', sans-serif;
+    background-color: rgba(230, 157, 68, 0.6);
+    width: 78%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border-radius: 1rem;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+
+}
+
+input{
+    margin-left: 1.5%;
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.resultado{
+    position: absolute;
+    margin-left: 50%;
+    top: 11.3%;
+    background-color: white;
+    width: 25%;
+    border-radius: 1rem;
+    border: 2px solid black;
+    height: 5.5rem;
+    
+    
+}
+
+#real-dollar{
+position: absolute;
+width: 10%;
+height: 3.5rem;
+margin-left: 34%;
+margin-top: 7.3%;
+background-color: rgba(000, 000, 000, 0);
+border: none;
+
+
+}
+
+#real-iene{
+    position: absolute;
+}
+
+#real-euro{
+    position: absolute;
+}
+
+#real-libra{
+    position: absolute;
+}
+
+#real-peso{
+    position: absolute;
+}
+
+#img-conversor-dollar{
+
+    position:absolute;
+    width: 50%;
+    top: -10%;
+    right: 7%;
+
+}

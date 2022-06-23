@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';  
+import { AppRoutingModule, routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 
@@ -15,7 +14,8 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
