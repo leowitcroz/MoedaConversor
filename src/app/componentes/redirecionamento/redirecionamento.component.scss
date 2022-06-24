@@ -63,6 +63,57 @@ input{
     
 }
 
+.resultado-I{
+    position: absolute;
+    margin-left: 50%;
+    top: 26.7%;
+    background-color: white;
+    width: 25%;
+    border-radius: 1rem;
+    border: 2px solid black;
+    height: 5.5rem;
+
+}
+
+.resultado-E{
+    position: absolute;
+    margin-left: 50%;
+    top: 42.4%;
+    background-color: white;
+    width: 25%;
+    border-radius: 1rem;
+    border: 2px solid black;
+    height: 5.5rem;
+
+
+}
+
+.resultado-L{
+    position: absolute;
+    margin-left: 50%;
+    top: 58.1%;
+    background-color: white;
+    width: 25%;
+    border-radius: 1rem;
+    border: 2px solid black;
+    height: 5.5rem;
+
+
+}
+
+.resultado-P{
+    position: absolute;
+    margin-left: 50%;
+    top: 73.8%;
+    background-color: white;
+    width: 25%;
+    border-radius: 1rem;
+    border: 2px solid black;
+    height: 5.5rem;
+
+
+}
+
 #real-dollar{
 position: absolute;
 width: 10%;
@@ -77,18 +128,42 @@ border: none;
 
 #real-iene{
     position: absolute;
+    width: 10%;
+    height: 3.5rem;
+    margin-left: 34%;
+    margin-top: 19.8%;
+    background-color: rgba(000, 000, 000, 0);
+    border: none;
 }
 
 #real-euro{
     position: absolute;
+    width: 10%;
+    height: 3.5rem;
+    margin-left: 34%;
+    margin-top: 32%;
+    background-color: rgba(000, 000, 000, 0);
+    border: none;
 }
 
 #real-libra{
     position: absolute;
+    height: 3.5rem;
+    margin-left: 34%;
+    margin-top: 44.2%;
+    background-color: rgba(000, 000, 000, 0);
+    border: none;
+    width: 10%;
 }
 
 #real-peso{
     position: absolute;
+    height: 3.5rem;
+    margin-left: 34%;
+    margin-top: 56.3%;
+    background-color: rgba(000, 000, 000, 0);
+    border: none;
+    width: 10%;
 }
 
 #img-conversor-dollar{
@@ -96,6 +171,7 @@ border: none;
     position:absolute;
     width: 50%;
     top: -10%;
-    right: 7%;
+    right: 20%;
 
 }
+
