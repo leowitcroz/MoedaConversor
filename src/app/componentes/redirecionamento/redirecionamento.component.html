@@ -6,35 +6,36 @@
 
         <h1 class="titulo">Converta aqui!</h1>
 
-        <div class="convertores">
+        <form class="convertores">
+            
             
             <label for="valor-real-dollar">Real para Dollar</label>
-            <input type="number" id="valor-real-dollar" placeholder="R$ XX.XX">
-            <div class="resultado"></div>
-            <button id="real-dollar"><img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
+            <input type="number" id="valor-real-dollar" placeholder="R$ XX.XX" [(ngModel)]="realdollar" name="realdollar">
+            <div class="resultado">dollares: {{converterealdolar}} </div>
+            <button id="real-dollar" (click)="converterrealdollar()"  class="login-btn"><img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
 
             <label for="valor-real-iene">Real para Iene</label>
-            <input type="number" id="valor-real-iene" placeholder="R$ XX.XX">
-            <div class="resultado-I"></div>
-            <button id="real-iene"> <img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
+            <input type="number" id="valor-real-iene" placeholder="R$ XX.XX" [(ngModel)]="realiene" name="realiene">
+            <div class="resultado-I">Ienes: {{converterealiene}}</div>
+            <button id="real-iene" (click)="converterrealiene()"  class="login-btn"> <img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
 
             <label for="valor-real-euro">Real para Euro</label>
-            <input type="number" id="valor-real-euro" placeholder="R$ XX.XX">
-            <div class="resultado-E"></div>
-            <button id="real-euro"><img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
+            <input type="number" id="valor-real-euro" placeholder="R$ XX.XX" [(ngModel)]="realeuro" name="realeuro">
+            <div class="resultado-E">Euros: {{converterealeuro}}</div>
+            <button id="real-euro" (click)="converterrealeuro()"  class="login-btn"><img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
             
             <label for="valor-real-libra">Real para Libra</label>
-            <input type="number" id="valor-real-libra" placeholder="R$ XX.XX">
-            <div class="resultado-L"></div>
-            <button id="real-libra"> <img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
+            <input type="number" id="valor-real-libra" placeholder="R$ XX.XX" [(ngModel)]="reallibra" name="reallibra">
+            <div class="resultado-L">Libra: {{convertereallibra}}</div>
+            <button id="real-libra" (click)="converterreallibra()" class="login-btn"> <img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
 
             <label for="valor-real-pesos-argentinos">Real para Pesos </label>
-            <input type="number" id="valor-real-pesos" placeholder="R$ XX.XX">
-            <div class="resultado-P"></div>
-            <button id="real-peso"> <img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
+            <input type="number" id="valor-real-pesos" placeholder="R$ XX.XX" [(ngModel)]="realpeso" name="realpeso">
+            <div class="resultado-P">Pesos: {{converterealpeso}}</div>
+            <button id="real-peso" (click)="converterrealpeso()" class="login-btn"> <img src="assets/images/41ShDVF6hpL.png" id="img-conversor-dollar"></button>
+        
 
-
-        </div>
+        </form>
 
 
 
