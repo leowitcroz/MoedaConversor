@@ -44,3 +44,14 @@
 
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .titulo-principal{
+        font-size: 3rem;
+        right: 17%;
+    }
+    
+    .botao{
+        width: 60%;
+       margin-left: -17%;
+    }
+}

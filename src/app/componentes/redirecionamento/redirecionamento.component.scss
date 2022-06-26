@@ -180,3 +180,144 @@ border: none;
 
 }
 
+@media (min-width: 320px) and (max-width: 480px){
+
+    .fundo-img{
+
+        width: 250%;
+        height: 120rem;
+           
+    }
+
+    .titulo{
+
+        width: 80%;
+        right: 10%;
+        font-size: 4.2rem;
+        text-align: center;
+        padding-right: 2%;
+    }
+
+    .convertores{
+
+        top: 27%;
+        font-size: 2.5rem;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .resultado{
+        top:7%;
+        height: 4.2rem;
+        width: 35%;
+        font-size: 2rem;
+        padding-top: 1.5%;
+
+    }
+
+
+    .resultado-I{
+        top:19.5%;
+        height: 4.2rem;
+        width: 35%;
+        font-size: 2rem;
+        padding-top: 1.5%;
+    
+    }
+    
+    .resultado-E{
+        top:31.7%;
+        height: 4.2rem;
+        width: 35%;
+        font-size: 2rem;
+        padding-top: 1.5%;
+    
+    }
+    
+    .resultado-L{
+  
+        top:44.3%;
+        height: 4.2rem;
+        width: 35%;
+        font-size: 2rem;
+        padding-top: 1.5%;
+    
+    }
+    
+    .resultado-P{
+        top:56.7%;
+        height: 4.2rem;
+        width: 35%;
+        font-size: 2rem;
+        padding-top: 1.5%;
+    }
+
+    #real-dollar{
+        position: absolute;
+        width: 20%;
+        height: 3.5rem;
+        margin-left: 29%;
+        margin-top: 20.3%;
+        background-color: rgba(000, 000, 000, 0);
+        border: none;
+        
+        
+        
+        }
+        
+        #real-iene{
+            position: absolute;
+            width: 20%;
+            height: 3.5rem;
+            margin-left: 29%;
+            margin-top: 53.8%;
+            background-color: rgba(000, 000, 000, 0);
+            border: none;
+        }
+        
+        #real-euro{
+            position: absolute;
+            width: 20%;
+            height: 3.5rem;
+            margin-left: 29%;
+            margin-top: 86%;
+            background-color: rgba(000, 000, 000, 0);
+            border: none;
+        }
+        
+        #real-libra{
+            position: absolute;
+            height: 3.5rem;
+            margin-left: 29%;
+            margin-top: 117.2%;
+            background-color: rgba(000, 000, 000, 0);
+            border: none;
+            width: 20%;
+        }
+        
+        #real-peso{
+            position: absolute;
+            height: 3.5rem;
+            margin-left: 29%;
+            margin-top: 150.3%;
+            background-color: rgba(000, 000, 000, 0);
+            border: none;
+            width: 20%;
+        }
+        
+        #img-conversor-dollar{
+        
+            position:absolute;
+            width: 50%;
+            top: -10%;
+            right: 20%;
+        
+        }
+
+        .gatinho{
+            width: 100%;
+            position: absolute;
+        }
+    
+}
+
