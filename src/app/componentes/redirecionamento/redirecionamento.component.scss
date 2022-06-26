@@ -15,14 +15,14 @@
     top: 10%;
     font-size: 6.5rem;
     text-align: center;
-    margin-left: 29.5%;
+    margin-left: 17.5%;
     font-family: 'League Gothic', sans-serif;
     background-color: rgba(230, 157, 68, 0.6);
     padding: 1.5%;
     border-radius: 1rem;
-    width: 40%;
+    width: 60%;
     text-align: center;
-    padding-left: 9%;
+    padding-left: 15%;
 }
 
 .convertores{
@@ -37,7 +37,7 @@
     padding-top: 2%;
     padding-left: 2%;
     border-radius: 1rem;
-    height: 120%;
+    height: 150%;
     display: flex;
     flex-direction: column;
     padding-left: 8%;
@@ -53,7 +53,7 @@ input{
 .resultado{
     position: absolute;
     margin-left: 50%;
-    top: 11.3%;
+    top: 12%;
     background-color: white;
     width: 25%;
     border-radius: 1rem;
@@ -67,7 +67,7 @@ input{
 .resultado-I{
     position: absolute;
     margin-left: 50%;
-    top: 26.7%;
+    top: 30.2%;
     background-color: white;
     width: 25%;
     border-radius: 1rem;
@@ -80,7 +80,7 @@ input{
 .resultado-E{
     position: absolute;
     margin-left: 50%;
-    top: 42.4%;
+    top: 49.4%;
     background-color: white;
     width: 25%;
     border-radius: 1rem;
@@ -94,7 +94,7 @@ input{
 .resultado-L{
     position: absolute;
     margin-left: 50%;
-    top: 58.1%;
+    top: 68.1%;
     background-color: white;
     width: 25%;
     border-radius: 1rem;
@@ -108,7 +108,7 @@ input{
 .resultado-P{
     position: absolute;
     margin-left: 50%;
-    top: 73.8%;
+    top: 86.8%;
     background-color: white;
     width: 25%;
     border-radius: 1rem;
@@ -123,7 +123,7 @@ position: absolute;
 width: 10%;
 height: 3.5rem;
 margin-left: 34%;
-margin-top: 7.3%;
+margin-top: 11.7%;
 background-color: rgba(000, 000, 000, 0);
 border: none;
 
@@ -136,7 +136,7 @@ border: none;
     width: 10%;
     height: 3.5rem;
     margin-left: 34%;
-    margin-top: 19.8%;
+    margin-top: 29.8%;
     background-color: rgba(000, 000, 000, 0);
     border: none;
 }
@@ -146,7 +146,7 @@ border: none;
     width: 10%;
     height: 3.5rem;
     margin-left: 34%;
-    margin-top: 32%;
+    margin-top: 49%;
     background-color: rgba(000, 000, 000, 0);
     border: none;
 }
@@ -155,7 +155,7 @@ border: none;
     position: absolute;
     height: 3.5rem;
     margin-left: 34%;
-    margin-top: 44.2%;
+    margin-top: 67.2%;
     background-color: rgba(000, 000, 000, 0);
     border: none;
     width: 10%;
@@ -165,7 +165,7 @@ border: none;
     position: absolute;
     height: 3.5rem;
     margin-left: 34%;
-    margin-top: 56.3%;
+    margin-top: 85.3%;
     background-color: rgba(000, 000, 000, 0);
     border: none;
     width: 10%;
@@ -179,6 +179,8 @@ border: none;
     right: 20%;
 
 }
+
+.gatinho{display: none;}
 
 @media (min-width: 320px) and (max-width: 480px){
 
@@ -315,6 +317,7 @@ border: none;
         }
 
         .gatinho{
+            display: block;
             width: 100%;
             position: absolute;
         }
